@@ -1,101 +1,98 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    background-color: #45546bf5;
-
+  background-color: #45546bf5;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px;
-    text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 .page {
-    margin-top: 20px;
+  margin-top: 20px;
 
-    &__title {
-        text-align: center;
+  &__title {
+    text-align: center;
+  }
 
-    }
+  &__form {
+    width: 400px;
+    margin: auto;
 
-    &__form {
-        width: 400px;
-        margin: auto;
-
-        outline: 1px solid green;
-    }
-
+    outline: 1px solid green;
+  }
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 .container {
-    display: block;
-    width: 500px;
-    margin: auto;
+  display: block;
+  width: 500px;
+  margin: auto;
 
-    outline: 1px solid red;
+  outline: 1px solid red;
 }
 
 .label__container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .button {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .form {
-    &__label {}
-
-    &__input {
-        padding: 5px 10px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-
-        border-radius: 10px;
-    }
+  &__textarea--answer,
+  &__textarea--ask {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 20px;
+  }
 }
